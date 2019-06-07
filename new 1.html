@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+var x = document.forms["myForm"]
+["fname'].value;
+if (x = ="") {
+alert('Name must be filled out");
+return false;
+}
+</script>
+<style>
+.button{
+background-color: blue;
+brightness: pale;
+cursor: arrow;
+word: white;
+</style>
+</head>
+<body>
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()"
+method="post">
+Username: <input type=" " value="name" placeholder=" " required>
+Password: <input type="password" value=" " placeholder="password" required>
+<button class="button">Submit</button>
+
+</form>
+</body>
+</html>

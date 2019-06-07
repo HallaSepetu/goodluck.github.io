@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container{
+display: grid;
+grid-gap: 10px;
+background-color: blue;
+grid-template-columns: auto auto auto auto;
+}
+.grid-container >div {
+background-color-pink;
+}
+.button{color: red;}
+</style>
+</head>
+<body>
+<div class="grid-container">
+<div>Halla</div>
+<div>Sepetu</div>
+<div>Mbomela</div>
+<div>Bop soy</div>
+</div>
+<p class="button">Let things go</p>
+
+</body>
+</html>
